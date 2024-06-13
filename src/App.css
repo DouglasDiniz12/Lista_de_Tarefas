@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+body{
+  font-size: arial;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+ background-image: url('./img/new-york-7577186_192011.jpg');
+ background-position: center;
+ background-size: cover;
+  
+}
+button{
+  background-color: #333974;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+
+}
+button:hover{
+  opacity: 1;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.complete{
+  background-color: #5cb85c;
+
+
+}
+.remove{
+
+  background-color: #D9534f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

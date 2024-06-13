@@ -1,0 +1,17 @@
+.App{
+  max-width: 600px;
+  margin:  0 auto 100px;
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+
+
+
+}
+h1{
+
+  text-align: center;
+}
+p{
+  margin: 10px 0;
+}
